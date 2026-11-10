@@ -1,0 +1,889 @@
+Here is the complete website code. Keep `index.html`, `styles.css`, and the `assets` folder together.
+
+### `index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d1b">
+  <meta name="description" content="Portfolio of Peddy Chandra Vardhan Reddy, computer science student and Unity game developer.">
+  <title>Peddy Chandra Vardhan Reddy | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Peddy Chandra Vardhan Reddy home">
+      <span class="brand-mark">PC</span>
+      <span>Peddy Chandra<br><b>Vardhan Reddy</b></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a class="nav-contact" href="#contact">Contact <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          COMPUTER SCIENCE STUDENT · GAME DEVELOPER
+        </p>
+
+        <h1>Building ideas<br>into <span>experiences.</span></h1>
+
+        <p class="hero-text">
+          Hi, I'm Peddy Chandra Vardhan Reddy. I enjoy creating software and
+          interactive worlds with code, creativity, and curiosity.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↓</span></a>
+          <a class="button button-quiet" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+
+        <div class="hero-facts">
+          <div><strong>Unity</strong><small>Game development</small></div>
+          <div><strong>CSE</strong><small>SR University</small></div>
+          <div><strong>3D</strong><small>Space shooter project</small></div>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="planet"></div>
+
+        <div class="hero-image-card">
+          <img src="assets/hangar.jpg" alt="3D Space Shooter game hangar screen">
+          <span class="image-chip"><i></i> CURRENT PROJECT</span>
+        </div>
+
+        <div class="floating-tag tag-top"><span>✦</span> Unity · C#</div>
+        <div class="floating-tag tag-bottom">GAME DESIGN <b>↗</b></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>A little about me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-intro">
+          <p>
+            I'm a B.Tech student at SR University from Hanamkonda, Telangana.
+            I like learning how technology works and turning ideas into practical projects.
+          </p>
+          <p>
+            Recently, I developed a 3D space shooter in Unity, exploring game
+            mechanics, C# scripting, and interactive design.
+          </p>
+        </div>
+
+        <div class="about-note">
+          <span class="note-icon">✳</span>
+          <div>
+            <b>What I bring</b>
+            <p>Curiosity, clear communication, and a willingness to keep learning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">02 / TOOLKIT</p>
+        <h2>Skills I'm growing</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-icon icon-code">&lt;/&gt;</span>
+          <h3>Programming</h3>
+          <p>Java · Python · C · C#</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon icon-data">▦</span>
+          <h3>Foundations</h3>
+          <p>Data structures · Problem solving</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon icon-game">◈</span>
+          <h3>Game development</h3>
+          <p>Unity 6.3 · C# · Input System</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-icon icon-talk">✧</span>
+          <h3>Communication</h3>
+          <p>English · Hindi · Telugu</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block projects-section" id="projects">
+      <div class="section-heading heading-row">
+        <div>
+          <p class="eyebrow">03 / SELECTED WORK</p>
+          <h2>Things I've built</h2>
+        </div>
+        <span class="section-count">01 PROJECT</span>
+      </div>
+
+      <article class="project-card">
+        <div class="project-visual">
+          <img src="assets/gameplay.jpg" alt="Spacecraft flying during a 3D Space Shooter mission">
+          <span class="project-badge">UNITY · C#</span>
+        </div>
+
+        <div class="project-content">
+          <p class="project-kicker">GAME MECHANICS AND DESIGN</p>
+          <h3>3D Space Shooter Game</h3>
+          <p>
+            Developed a single-player 3D space shooter using Unity 6.3 and C#.
+            Players pilot a spacecraft, battle AI enemies, dodge asteroids, and
+            choose from five themed worlds with matching missiles. The game
+            features keyboard and mouse controls, sound effects, shields,
+            scoring, a saved high score, and pause and restart options.
+          </p>
+
+          <div class="feature-list">
+            <span>Keyboard &amp; mouse controls</span>
+            <span>AI opponents &amp; hazards</span>
+            <span>Shields, score &amp; high score</span>
+            <span>Sound, pause &amp; restart</span>
+          </div>
+
+          <p class="project-role"><strong>Role:</strong> Game design and development</p>
+
+          <div class="project-bottom">
+            <span class="tech-pill">Unity 6.3</span>
+            <span class="tech-pill">C#</span>
+            <span class="tech-pill">Unity Input System</span>
+            <a
+              class="text-link"
+              href="https://github.com/chandravardhan011/3d-space-shooter-game"
+              target="_blank"
+              rel="noopener noreferrer"
+            >View project <span>↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <div class="gallery-grid">
+        <figure>
+          <img src="assets/hangar.jpg" alt="Game hangar and world selection">
+          <figcaption>Hangar and world selection</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/gameplay.jpg" alt="In-game combat HUD">
+          <figcaption>Flight and combat HUD</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/pause.jpg" alt="Game pause screen">
+          <figcaption>Pause and mission controls</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="education">
+      <div class="section-heading">
+        <p class="eyebrow">04 / EDUCATION</p>
+        <h2>Learning journey</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <div class="timeline-top">
+              <h3>B.Tech</h3>
+              <span>2023 — Present</span>
+            </div>
+            <p>SR University · Computer Science and Engineering</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <div class="timeline-top">
+              <h3>Intermediate</h3>
+              <span>2021 — 2023</span>
+            </div>
+            <p>Resonance Junior College · 74.9%</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <div class="timeline-top">
+              <h3>Secondary School</h3>
+              <span>2021</span>
+            </div>
+            <p>Kendriya Vidyalaya, Warangal · 86%</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-inner">
+        <p class="eyebrow">05 / CONTACT</p>
+        <h2>Have a project in mind?<br><span>Let's talk.</span></h2>
+        <a class="button button-light" href="mailto:peddychandravardhanreddy@gmail.com">
+          Email me <span>↗</span>
+        </a>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/peddy-chandra-vardhan-reddy"
+             target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://www.instagram.com/chandravar"
+             target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+          <a href="https://x.com/PCHANDRAVARDHAN"
+             target="_blank" rel="noopener noreferrer">X ↗</a>
+          <a href="https://www.facebook.com/chandu.peddi.90"
+             target="_blank" rel="noopener noreferrer">Facebook ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark">PC</span>
+      <span>Peddy Chandra<br><b>Vardhan Reddy</b></span>
+    </a>
+    <p>Designed with curiosity · Hanamkonda, Telangana</p>
+    <span>© 2026</span>
+  </footer>
+</body>
+</html>
+```
+
+### `styles.css`
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg: #080d1b;
+  --surface: #10182a;
+  --surface2: #131e33;
+  --text: #f2f5fb;
+  --muted: #9aa8bd;
+  --line: rgba(179, 198, 226, .14);
+  --cyan: #77e3f2;
+  --violet: #9c8bff;
+  --green: #8ce0b7;
+  --font: 'DM Sans', Arial, sans-serif;
+  --display: 'Space Grotesk', 'DM Sans', Arial, sans-serif;
+  --max: 1120px;
+}
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 15px;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(205,224,255,.16) .7px, transparent .7px);
+  background-size: 36px 36px;
+  opacity: .2;
+}
+
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+h1, h2, h3, p { margin-top: 0; }
+h1, h2, h3 { font-family: var(--display); }
+
+.page-glow {
+  position: absolute;
+  z-index: -1;
+  top: 80px;
+  right: -180px;
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(91,111,232,.13), transparent 68%);
+  pointer-events: none;
+}
+
+.site-header {
+  width: min(var(--max), calc(100% - 48px));
+  height: 82px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font: 500 12px/1.25 var(--display);
+  letter-spacing: .02em;
+}
+
+.brand b { font-weight: 700; }
+
+.brand-mark {
+  width: 38px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(119,227,242,.55);
+  border-radius: 12px;
+  background: linear-gradient(145deg, rgba(119,227,242,.18), rgba(156,139,255,.14));
+  color: var(--cyan);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.main-nav a { transition: color .2s; }
+.main-nav a:hover, .social-links a:hover { color: var(--cyan); }
+
+.main-nav .nav-contact {
+  padding: 9px 15px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  color: var(--text);
+}
+
+.nav-contact span { color: var(--cyan); padding-left: 8px; }
+
+.section-wrap {
+  width: min(var(--max), calc(100% - 48px));
+  margin-inline: auto;
+}
+
+.hero {
+  min-height: 610px;
+  padding: 75px 0 66px;
+  display: grid;
+  grid-template-columns: 1.05fr .95fr;
+  align-items: center;
+  gap: 50px;
+}
+
+.eyebrow {
+  margin: 0 0 17px;
+  color: var(--cyan);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .16em;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 12px var(--green);
+}
+
+h1 {
+  margin-bottom: 22px;
+  font-size: clamp(44px, 6vw, 72px);
+  line-height: 1.04;
+  letter-spacing: -.06em;
+}
+
+h1 span, .contact-inner h2 span { color: var(--cyan); }
+
+.hero-text {
+  max-width: 510px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.hero-actions { display: flex; gap: 12px; margin-top: 28px; }
+
+.button {
+  min-height: 46px;
+  padding: 0 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 700;
+  transition: transform .2s, background .2s;
+}
+
+.button:hover { transform: translateY(-2px); }
+.button-primary { background: var(--cyan); color: #09121f; }
+.button-primary:hover { background: #a0eff8; }
+.button-primary span { font-size: 18px; }
+.button-quiet { border: 1px solid var(--line); color: var(--text); }
+.button-quiet span { color: var(--cyan); }
+
+.hero-facts { display: flex; gap: 32px; margin-top: 48px; }
+.hero-facts div { display: grid; gap: 1px; }
+.hero-facts strong { font: 600 14px var(--display); }
+.hero-facts small { color: var(--muted); font-size: 10px; }
+
+.hero-art {
+  position: relative;
+  min-height: 410px;
+  display: grid;
+  place-items: center;
+}
+
+.hero-image-card {
+  position: relative;
+  z-index: 2;
+  width: min(100%, 470px);
+  padding: 10px;
+  border: 1px solid rgba(184,201,231,.2);
+  border-radius: 16px;
+  background: rgba(15,24,42,.86);
+  box-shadow: 0 25px 90px rgba(0,0,0,.42);
+  transform: rotate(2deg);
+}
+
+.hero-image-card img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
+.image-chip, .project-badge {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  padding: 7px 10px;
+  border: 1px solid rgba(255,255,255,.17);
+  border-radius: 99px;
+  background: rgba(6,12,24,.83);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+
+.image-chip i {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 6px;
+  border-radius: 50%;
+  background: var(--green);
+}
+
+.orbit {
+  position: absolute;
+  border: 1px solid rgba(119,227,242,.15);
+  border-radius: 50%;
+  transform: rotate(-27deg);
+}
+
+.orbit-one { width: 520px; height: 205px; }
+.orbit-two {
+  width: 440px;
+  height: 160px;
+  transform: rotate(35deg);
+  border-color: rgba(156,139,255,.16);
+}
+
+.planet {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 38px;
+  right: 48px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 28%, #c0b1ff, #6867c5 42%, #242e63 73%);
+  box-shadow: 0 0 50px rgba(130,130,255,.35);
+}
+
+.floating-tag {
+  position: absolute;
+  z-index: 3;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: #10182a;
+  box-shadow: 0 10px 32px #050814;
+  color: #c8d5e8;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .08em;
+}
+
+.tag-top { top: 52px; left: 2px; }
+.tag-top span { color: var(--cyan); padding-right: 6px; }
+.tag-bottom { right: 0; bottom: 42px; }
+.tag-bottom b { padding-left: 9px; color: var(--cyan); }
+
+.section-block { padding-top: 76px; padding-bottom: 30px; }
+.section-heading { margin-bottom: 28px; }
+.section-heading .eyebrow { margin-bottom: 8px; }
+
+.section-heading h2 {
+  margin: 0;
+  font-size: clamp(28px, 4vw, 38px);
+  line-height: 1.2;
+  letter-spacing: -.04em;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.2fr .8fr;
+  gap: 55px;
+  align-items: center;
+}
+
+.about-intro { max-width: 650px; color: #c0cada; }
+.about-intro p { margin-bottom: 12px; }
+
+.about-note {
+  display: flex;
+  gap: 16px;
+  padding: 21px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: linear-gradient(120deg, rgba(119,227,242,.06), rgba(156,139,255,.06));
+}
+
+.note-icon { color: var(--cyan); font-size: 23px; }
+.about-note b { font: 600 14px var(--display); }
+.about-note p { margin: 5px 0 0; color: var(--muted); font-size: 13px; }
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.skill-card {
+  min-height: 142px;
+  padding: 19px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: linear-gradient(150deg, rgba(255,255,255,.035), rgba(255,255,255,.012));
+  transition: transform .2s, border .2s;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(119,227,242,.4);
+}
+
+.skill-icon {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 15px;
+  border-radius: 9px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.icon-code { background: rgba(119,227,242,.12); color: var(--cyan); }
+.icon-data { background: rgba(156,139,255,.14); color: var(--violet); }
+.icon-game { background: rgba(140,224,183,.12); color: var(--green); }
+.icon-talk { background: rgba(255,193,125,.12); color: #ffc17d; }
+
+.skill-card h3 { margin-bottom: 4px; font-size: 14px; }
+.skill-card p { margin: 0; color: var(--muted); font-size: 11px; }
+
+.heading-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.section-count {
+  margin-bottom: 5px;
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: .13em;
+}
+
+.project-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: linear-gradient(130deg, #111a2d, #0c1323);
+  display: grid;
+  grid-template-columns: .95fr 1.05fr;
+}
+
+.project-visual {
+  position: relative;
+  min-height: 310px;
+  background: #10182a;
+}
+
+.project-visual img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .9;
+}
+
+.project-badge {
+  top: 18px;
+  bottom: auto;
+  left: 18px;
+  color: var(--cyan);
+}
+
+.project-content { padding: 28px 30px; }
+.project-kicker {
+  margin: 0 0 8px;
+  color: var(--cyan);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .14em;
+}
+
+.project-content h3 { margin-bottom: 10px; font-size: 25px; letter-spacing: -.03em; }
+.project-content > p:not(.project-kicker) { color: var(--muted); font-size: 13px; }
+
+.feature-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 12px;
+  margin: 17px 0 22px;
+  color: #d5deea;
+  font-size: 10px;
+}
+
+.feature-list span:before { content: '✓'; margin-right: 7px; color: var(--green); }
+.project-role strong { color: var(--text); }
+
+.project-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+}
+
+.tech-pill {
+  padding: 5px 9px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  color: #cbd7e8;
+  font-size: 9px;
+}
+
+.text-link {
+  margin-left: auto;
+  color: var(--cyan);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.text-link span { margin-left: 4px; }
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.gallery-grid figure {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  background: var(--surface);
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 155px;
+  object-fit: cover;
+  transition: transform .35s;
+}
+
+.gallery-grid figure:hover img { transform: scale(1.04); }
+.gallery-grid figcaption { padding: 9px 12px; color: var(--muted); font-size: 10px; }
+
+.timeline {
+  max-width: 760px;
+  margin-left: 5px;
+  border-left: 1px solid rgba(119,227,242,.25);
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  padding: 0 0 26px 23px;
+}
+
+.timeline-dot {
+  position: absolute;
+  top: 7px;
+  left: -5px;
+  width: 9px;
+  height: 9px;
+  border: 2px solid var(--cyan);
+  border-radius: 50%;
+  background: var(--bg);
+  box-shadow: 0 0 12px rgba(119,227,242,.4);
+}
+
+.timeline-top { display: flex; gap: 22px; align-items: baseline; }
+.timeline-top h3 { margin: 0; font-size: 15px; }
+.timeline-top span { color: var(--cyan); font-size: 10px; }
+.timeline-item p { margin: 3px 0 0; color: var(--muted); font-size: 12px; }
+
+.contact-section {
+  margin-top: 76px;
+  padding: 68px 0 45px;
+  border-top: 1px solid var(--line);
+  background: radial-gradient(ellipse at 50% 100%, rgba(78,91,200,.15), transparent 60%), #0b1120;
+}
+
+.contact-inner { text-align: center; }
+.contact-inner .eyebrow { margin-bottom: 10px; }
+
+.contact-inner h2 {
+  margin: 0 0 22px;
+  font-size: clamp(35px, 5vw, 54px);
+  line-height: 1.12;
+  letter-spacing: -.05em;
+}
+
+.button-light { background: #f2f5fb; color: #10182a; }
+.button-light span { font-size: 16px; }
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  margin-top: 28px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.site-footer {
+  width: min(var(--max), calc(100% - 48px));
+  min-height: 82px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.footer-brand { color: var(--text); font-size: 10px; }
+.footer-brand .brand-mark { width: 31px; height: 31px; border-radius: 10px; }
+.site-footer p { margin: 0; }
+
+@media (max-width: 850px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    padding-top: 62px;
+  }
+
+  .hero-art { min-height: 360px; }
+  .hero-copy { max-width: 670px; }
+  .about-grid { grid-template-columns: 1fr; gap: 20px; }
+  .skills-grid { grid-template-columns: repeat(2, 1fr); }
+  .project-card { grid-template-columns: 1fr; }
+  .project-visual { min-height: 300px; }
+  .project-content { padding: 24px; }
+
+  .site-header {
+    height: auto;
+    min-height: 76px;
+    align-items: flex-start;
+    padding: 17px 0;
+    gap: 18px;
+  }
+
+  .main-nav { justify-content: flex-end; flex-wrap: wrap; gap: 12px 18px; }
+  .main-nav a { font-size: 11px; }
+}
+
+@media (max-width: 560px) {
+  .site-header, .section-wrap, .site-footer { width: calc(100% - 34px); }
+  .site-header { display: block; }
+  .brand { margin-bottom: 15px; }
+  .main-nav { justify-content: flex-start; gap: 10px 16px; }
+  .main-nav .nav-contact { padding: 3px 9px; }
+  .hero { padding: 48px 0 35px; min-height: auto; }
+  .hero-facts { gap: 18px; margin-top: 34px; }
+  .hero-facts small { font-size: 9px; }
+  .hero-art { min-height: 285px; }
+  .hero-image-card img { height: 190px; }
+  .orbit-one { width: 340px; height: 145px; }
+  .orbit-two { width: 290px; height: 120px; }
+  .planet { width: 44px; height: 44px; right: 18px; top: 18px; }
+  .tag-top { left: -3px; top: 22px; }
+  .tag-bottom { right: -3px; bottom: 20px; }
+  .section-block { padding-top: 52px; }
+  .skills-grid { gap: 9px; }
+  .skill-card { padding: 14px; min-height: 132px; }
+  .project-visual { min-height: 220px; }
+  .project-content { padding: 20px; }
+  .feature-list { grid-template-columns: 1fr; }
+  .text-link { margin-left: 0; width: 100%; padding-top: 7px; }
+  .gallery-grid { grid-template-columns: 1fr; }
+  .gallery-grid img { height: 195px; }
+  .social-links { flex-wrap: wrap; gap: 10px 18px; }
+  .site-footer { padding: 18px 0; flex-wrap: wrap; }
+  .site-footer p { order: 3; width: 100%; }
+  .contact-section { margin-top: 48px; padding: 52px 0 38px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *:before, *:after { transition: none !important; }
+}
+```
